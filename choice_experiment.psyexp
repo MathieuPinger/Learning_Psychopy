@@ -46,7 +46,7 @@
         <Param name="name" updates="None" val="immediate_choice" valType="code"/>
         <Param name="opacity" updates="constant" val="1" valType="code"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="pos" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="pos" updates="constant" val="(-0.2, 0)" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
@@ -70,7 +70,7 @@
         <Param name="name" updates="None" val="delayed_choice" valType="code"/>
         <Param name="opacity" updates="constant" val="1" valType="code"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="pos" updates="constant" val="(-0.1, -0.1)" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.2, 0)" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
@@ -95,10 +95,10 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.5" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="3.5" valType="code"/>
         <Param name="store" updates="constant" val="last key" valType="str"/>
         <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
-        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="False" valType="bool"/>
       </KeyboardComponent>
     </Routine>
   </Routines>
@@ -109,7 +109,7 @@
       <Param name="conditionsFile" updates="None" val="choice_experiment_options.xlsx" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
-      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="code"/>
       <Param name="name" updates="None" val="trials" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
